@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --blue: #473e9e;
+    --light-blue: #3291e9;
+    --white: #fff;
+    --black: #000;
+    --nav-link: #3a3a3a;
+    --purple: #918bc5;
+    --purple-opacity-30: rgba(145, 139, 197, 0.3);
+    --purple-opacity-20: rgba(145, 139, 197, 0.2);
+    --light-purple: #bcbfd8;
+    --red: #ee2654;
+    --pink: #ff819e;
+    --yellow: #fab011;
+    --grey: #e7e5f4;
+    --grey-2: #e4e3f7;
+    --grey-3: #faf9ff;
+    --f400-lato: "Lato-Regular";
+    --f500-lato: "Lato-Medium";
+    --f600-lato: "Lato-Semibold";
+    --f700-lato: "Lato-Bold";
+    --f800-lato: "Lato-Heavy";
+    --f900-lato: "Lato-Black";
+    --main-input-bg: #f2f1ff;
+    --btn-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+    --bg-other-main: #f2f1ff;
+    --reason-input-bg: #fff;
+    --reason-input-border: #e7e5f4;
+    --reason-input-circle: #dad8ec;
+    --loading-bg: #edecff;
+    --bg-item: #f3f2ff;
+}
+
+
+
+
+
+.main-card {
+
+    background: var(--blue);
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 560px;
+    height: 560px;
+}
+
+.things-to-do-main {
+    width: 30%;
+}
+
+.things-to-do-heading {
+
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.saara-card {
+    min-height: 150;
+
+    height: 160px;
+    min-width: 300px;
+    width: 350px;
+    position: relative;
+    padding: 15px 15px 0 15px;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.saara-card-main {
+    padding-left: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+/*Scrollbar Style */
+.saara-card-main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    ;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.saara-card-main::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--blue)
+}
+
+.saara-card-main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.44, var(--grey)),
+            color-stop(0.72, var(--grey)),
+            color-stop(0.86, var(--grey)));
+}
+
+.plan-feature:hover {
+    overflow-y: scroll;
+
+}
+
+.bottom-text {
+    height: 30px;
+}
+
+.saara-card-bottom {}
+
+.top-text {
+    width: 300px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-main-text {
+
+    color: var(--blue);
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.header-help-text {
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--purple);
+
+}
+
+.blog-main {
+
+    padding: 10px 0 0 10px;
+    margin-top: 60px;
+    margin-left: 20px;
+    box-shadow: var(--btn-shadow);
+    border-radius: 6px;
+    height: 560px;
+}
+
+.blog-heading {
+    font-size: 20px;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.blog-card {
+    width: 300px;
+    border-radius: 6px;
+    background: #F7F6FF;
+    padding: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+.blog-card-content {
+    font-size: 14px;
+}
