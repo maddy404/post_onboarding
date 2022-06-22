@@ -105,9 +105,9 @@
     background-image: -webkit-gradient(linear,
             left bottom,
             left top,
-            color-stop(0.44, var(--grey)),
-            color-stop(0.72, var(--grey)),
-            color-stop(0.86, var(--grey)));
+            color-stop(0.44, rgba(255, 255, 255, 0.4)),
+            color-stop(0.72, rgba(255, 255, 255, 0.4)),
+            color-stop(0.86, rgba(255, 255, 255, 0.4)));
 }
 
 .plan-feature:hover {
@@ -146,11 +146,11 @@
 .blog-main {
 
     padding: 10px 0 0 10px;
-    margin-top: 60px;
-    margin-left: 20px;
-    box-shadow: var(--btn-shadow);
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    height: 560px;
+    height: 635px;
 }
 
 .blog-heading {
@@ -171,4 +171,10 @@
 
 .blog-card-content {
     font-size: 14px;
+}
+
+.blog-card-icon-display {
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
 }
