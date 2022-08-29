@@ -178,3 +178,7 @@
     background: white;
     padding: 10px;
 }
+
+.w-33{
+    width: 33%!important;
+}
